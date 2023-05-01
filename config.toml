@@ -1,4 +1,4 @@
-baseURL = "https://github.com/RSM-git/rsm-git.github.io"
+baseURL = "https://rsm-git.github.io"
 title = "Community detection and analysis of American news agencies"
 description = "123 123"
 relativeURLs = true
