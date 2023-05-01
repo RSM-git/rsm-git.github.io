@@ -1,10 +1,10 @@
-baseURL = "https://peterampazzo.github.io/project-website-template/"
-title = "Project Title"
-description = "This is a project description"
+baseURL = "https://github.com/RSM-git/rsm-git.github.io"
+title = "Community detection and analysis of American news agencies"
+description = "123 123"
 relativeURLs = true
 theme = "theme" 
 [params]
-    authors = ["Henrik Nielsen", "Inga Jensen", "Mikkel Andersen"]
+    authors = ["Kris Back Kruse", "Rasmus Steen Mikkelsen", "Victor Tolsager Olesen"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
     github = "https://github.com/peterampazzo/project-website-template"
