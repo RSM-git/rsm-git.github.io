@@ -52,8 +52,8 @@ modularity of the randomized graphs using the section partitioning of the graph.
 
 ![](/images/nyt_mod.png)
 
-|                          | Reuters                          | The New York Times               |
-|--------------------------|----------------------------------|----------------------------------|
-| Section modularity       | 0.246                            | 0.239                            |
-| Louvain modularity       | 0.547                            | 0.701                            |
-| Randomization modularity | $X\sim\mathcal{N}(0.016, 0.003)$ | $X\sim\mathcal{N}(0.030, 0.001)$ |
+|                          | Reuters                            | The New York Times                 |
+|--------------------------|------------------------------------|------------------------------------|
+| Section modularity       | 0.246                              | 0.239                              |
+| Louvain modularity       | 0.547                              | 0.701                              |
+| Randomization modularity | $$X\sim\mathcal{N}(0.016, 0.003)$$ | $$X\sim\mathcal{N}(0.030, 0.001)$$ |
