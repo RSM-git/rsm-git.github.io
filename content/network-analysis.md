@@ -36,6 +36,8 @@ And once again the graph is shown with the nodes colored based on the Louvain co
 
 For both of the graphs we perform randomization experiments using the double edge swap algorithm and computing the modularity of the randomized graphs using the section partitioning of the graph.
 
-![Reuters randomization experiment](images/reuters_mod.png)
+### Reuters randomization experiment
+![](images/reuters_mod.png)
 
-![The New York Times randomization experiment](images/nyt_mod.png)
+### The New York Times randomization experiment
+![](images/nyt_mod.png)
