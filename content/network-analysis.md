@@ -57,3 +57,12 @@ modularity of the randomized graphs using the section partitioning of the graph.
 | Section modularity       | 0.246                              | 0.239                              |
 | Louvain modularity       | 0.547                              | 0.701                              |
 | Randomization modularity | $$X\sim\mathcal{N}(0.016, 0.003)$$ | $$X\sim\mathcal{N}(0.030, 0.001)$$ |
+
+From the randomization experiments we can see that although the section partitioning is quite a bit lower than the modularity than the partitioning
+obtained by using the Louvain algorithm, but it is still significantly better than randomly partitioning the graph, which is what we would expect.
+
+
+It is quite likely that the modularity of the Louvain partitioning of the New York Times graph is so high because of the 
+large blob of nodes in the center of the graph, likely being assigned the same community by the algorithm. 
+This is likely due to the fact that the blob is so densely connected that it is very hard to break it up into 
+smaller communities.
