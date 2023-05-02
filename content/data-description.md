@@ -3,7 +3,7 @@ title: Data description
 prev: "/"
 next: network-analysis
 ---
-Our data concists of news articles from Reuters and The New York Times. We specifically chose to work with news articles as there is an apparent connection between a collaboration network of authors and text that they produce together.
+Our data consists of news articles from Reuters and The New York Times. We specifically chose to work with news articles as there is an apparent connection between a collaboration network of authors and text that they produce together.
 
 
 The data used for this project is a subset of [All the News 2.0](https://components.one/datasets/all-the-news-2-news-articles-dataset/), which is an expanded version of the original All the News dataset.
