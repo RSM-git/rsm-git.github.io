@@ -8,29 +8,34 @@ We construct the network based on the co-authorship of articles. We define two a
 
 In the image below the full Reuters graph can be seen.
 
-![](/images/reuters_full_graph.png)
+![](/images/reuters0.png)
 
 As can be seen, the largest connected component of the graph is surrounded by a large number of small components. We chose to focus on the largest component as there are not many connections to investigate in the smaller components.
 Where the nodes are colored based on the author's most publicised section in the dataset.
 
-![](/images/reuters_graph.png)
+![](/images/reuters1.png)
 
 In the following image the Reuters graph is shown with the nodes colored based on the Louvain community detection algorithm.
 
-![](/images/reuters_louvain_graph.png)
+![](/images/reuters2.png)
 
 The New York Times graph is shown below, we see that there is a very large blob in the center of the graph,
 containing a few big authors and majorly authors with a small number of articles written.
-The large majority of these authors have the section "Movies", examining the authors of the "Movies"
-section we see that a lot of these "authors" are most likely actors and actresses that have been interviewed.
+Most if not all of these authors belong to the "Movies" section of the newspaper, and are likely to be actors, actresses, directors, etc. such as John Cena, Jake Gyllenhaal, etc.
 
-![](/images/nyt_full_graph.png)
+![](/images/nyt0.png)
 
 Akin to the Reuters graph, there were a lot of small components surrounding the largest component. And we once again chose to focus on the largest component.
-Where the nodes are colored based on the author's most publicised section in the dataset.
+With the nodes being colored based on the author's most publicised section in the dataset.
 
-![](/images/nyt_graph.png)
+![](/images/nyt1.png)
 
 And once again the graph is shown with the nodes colored based on the Louvain community detection algorithm.
 
-![](images/nyt_louvain_graph.png)
+![](images/nyt2.png)
+
+For both of the graphs we perform randomization experiments using the double edge swap algorithm and computing the modularity of the randomized graphs using the section partitioning of the graph.
+
+![Reuters randomization experiment](images/reuters_mod.png)
+
+![The New York Times randomization experiment](images/nyt_mod.png)
