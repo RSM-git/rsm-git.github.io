@@ -32,12 +32,12 @@ With the nodes being colored based on the author's most publicised section in th
 
 And once again the graph is shown with the nodes colored based on the Louvain community detection algorithm.
 
-![](images/nyt2.png)
+![](/images/nyt2.png)
 
 For both of the graphs we perform randomization experiments using the double edge swap algorithm and computing the modularity of the randomized graphs using the section partitioning of the graph.
 
 ### Reuters randomization experiment
-![](images/reuters_mod.png)
+![](/images/reuters_mod.png)
 
 ### The New York Times randomization experiment
-![](images/nyt_mod.png)
+![](/images/nyt_mod.png)
