@@ -4,45 +4,47 @@ prev: data-description
 next: text-analysis
 ---
 
-We construct the network based on the co-authorship of articles. We define two authors as co-authors if they have
-written at least one article together. We then construct a network where each node represents an author and each edge
-represents a co-authorship between two authors. The network is undirected and unweighted. The nodes are scaled based on
-the number of articles the author has written. A network is created for each publication.
+We construct the network based on the co-authorship of articles, to examine the collaborations of the news agencies.
+We construct a graph where each node represents an author and each edge represents a co-authorship between two authors.
+The network is undirected and unweighted. The size of the nodes are scaled based on the number of articles the author has written.
+We create a graph for both Reuters and The New York Times.
 
-In the image below the full Reuters graph can be seen.
-
-![](/images/reuters0.png)
-
-As can be seen, the largest connected component of the graph is surrounded by a large number of small components. We
-chose to focus on the largest component as there are not many connections to investigate in the smaller components.
-Where the nodes are colored based on the author's most publicised section in the dataset.
-
-![](/images/reuters1.png)
-
-In the following image the Reuters graph is shown with the nodes colored based on the Louvain community detection
-algorithm.
-
-![](/images/reuters2.png)
-
-The New York Times graph is shown below, we see that there is a very large blob in the center of the graph,
-containing a few big authors and majorly authors with a small number of articles written.
-Most if not all of these authors belong to the "Movies" section of the newspaper, and are likely to be actors,
-actresses, directors, etc. such as John Cena, Jake Gyllenhaal, etc.
+In the image below the full New York Times graph can be seen.
 
 ![](/images/nyt0.png)
 
-Akin to the Reuters graph, there were a lot of small components surrounding the largest component. And we once again
-chose to focus on the largest component.
-With the nodes being colored based on the author's most publicised section in the dataset.
+As can be seen there is a large blob in the center of the graph, containing a few authors with a larger number of articles,
+and a lot of authors with a very small number of articles written, all belonging to the Movies section of the newspaper.
+Upon further inspection we found that a majority of these "authors" were actually actors, actresses, or other celebrities
+such as John Cena, Jake Gyllenhaal, Margot Robbie, etc. All of which had a low number of articles, where they were listed
+as authors, likely due to the fact that they were the subject of the article or were interviewed for the article. As such we 
+chose to remove all nodes with less than 5 articles written, and the corresponding articles that would result in having a 
+single author or no author are also removed.
+
+In the figures below we see the degree distribution of the largest connected component of New York Times graph before and
+after removing the nodes with less than 5 articles written.
+
+|               Before               |               After               |
+|:----------------------------------:|:---------------------------------:|
+| ![](/images/nyt_degree_before.png) | ![](/images/nyt_degree_after.png) |
+
+Additionally, there are also some network statistics for the graph before and after removing these nodes.
+
+|            Stat             |  Before  |   After   |
+|:---------------------------:|:--------:|:---------:|
+|           #Nodes            |  15,556  |   1,234   |
+|           #Edges            |  79,857  |   7,342   |
+|         Avg. degree         |  10.26   |   11.90   |
+|        Median degree        |    7     |     5     |
+| Avg. clustering coefficient |  0.792   |   0.184   |
+
+
+
+
+
+The resulting graph of removing the nodes corresponding to authors with 5 or fewer articles written can be seen below.
 
 ![](/images/nyt1.png)
-
-And once again the graph is shown with the nodes colored based on the Louvain community detection algorithm.
-
-![](/images/nyt2.png)
-
-For both of the graphs we perform randomization experiments using the double edge swap algorithm and computing the
-modularity of the randomized graphs using the section partitioning of the graph.
 
 ### Reuters randomization experiment
 
