@@ -45,3 +45,9 @@ From the plots it is evident that the vast majority of authors write in a negati
 
 Let us now return to the comparison of the publications' portrayal of US politics.
 We will compare the sentiments for the Reuters' politics section and the NYT's us section. 
+
+|                                     |               Reuters               |               NYT               |
+|:----------------------------------:|:----------------------------------:|:---------------------------------:|
+|Negative | 2,472 (81%) | 5,938 (76%)|
+|Neutral | 353 (12%)| 1,118 (14%)|
+|Positive | 212 (7%)| 771 (10%)|
