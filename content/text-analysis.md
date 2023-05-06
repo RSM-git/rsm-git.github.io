@@ -22,6 +22,6 @@ First, we need to determine which sections are concerned with the same subjects 
 
 |               Reuters               |               NYT               |
 |:----------------------------------:|:---------------------------------:|
-| ![](/images/Reuters_Section-Politics.png) | ![](/images/NYT_Section-us.png) |
-| ![](/images/Reuters_Section-World-News.png) | ![](/images/NYT_Section-world.png) |
+| ![](/images/Reuters_TFIDF_Politics.png) | ![](/images/NYT_TFIDF_us.png) |
+| ![](/images/Reuters_TFIDF_World_News.png) | ![](/images/NYT_TFIDF_world.png) |
 
