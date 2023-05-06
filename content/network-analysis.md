@@ -4,10 +4,10 @@ prev: data-description
 next: text-analysis
 ---
 
-We construct the network based on the co-authorship of articles, to examine the collaborations of the news agencies.
-We construct a graph where each node represents an author and each edge represents a co-authorship between two authors.
-The network is undirected and unweighted. The size of the nodes are scaled based on the number of articles the author has written.
-We create a graph for both Reuters and The New York Times.
+For both The New York Times and Reuters we construct networks based on collaboration of articles. A node represents an author and 
+a connection between two nodes represent collaboration. The size of the nodes will be scaled by the number of articles an author has published. 
+The networks are undirected and unweighted as the collaborative connection is mutual. With the two networks we will be able to discern the 
+differences in how the two news agencies collaborate between authors.
 
 ## **The New York Times**
 
