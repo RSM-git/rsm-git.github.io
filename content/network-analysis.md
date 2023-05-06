@@ -119,7 +119,7 @@ Comparing the two graphs we see that the modularity of the section partition in 
 whereas the modularity of the section partition in the New York Times graph is much closer to that of the Louvain partition. 
 This could be due to the fact that the collaboration within the New York Times is mostly between authors of the same section,
 whereas the collaboration within Reuters is more spread out across sections. This is likely due to the fact that there are fewer sections
-in the New York Times covering a wider range of topics, having articles from 21 unique sections, whereas Reuters has more sections 
-covering more specific topics across 39 sections.
+in the New York Times covering a wider range of topics, having articles from 21 unique sections, being partitioned into 13 communities by the Louvain algorithm.
+Whereas Reuters has more sections covering more specific topics across 39 sections partitioned into 14 communities by the Louvain algorithm.
 
 
