@@ -143,7 +143,10 @@ although the Louvain partition increases the modularity by a much larger margin 
 Comparing the two graphs we see that the modularity of the section partition in the Reuters graph is quite a bit lower than the Louvain partition, 
 whereas the modularity of the section partition in the New York Times graph is much closer to that of the Louvain partition. 
 This could be due to the fact that the collaboration within the New York Times is mostly between authors of the same section,
-whereas the collaboration within Reuters is more spread out across sections. 
+whereas the collaboration within Reuters is more spread out across sections. This is also reaffirmed by computing the degree assortativity 
+coefficient with respect to the section of the authors in each graph. The degree assortativity is 0.333 for the Reuters graph and 0.609 for the New York Times graph, 
+which means the authors in the New York Times graph are more likely to collaborate with authors of the same section than authors in the Reuters graph.
+
 
 Upon closer inspection of the section partitioning of the section partitioning of both graph we see that, the Reuters graph has 39 sections,
 whereas the New York Times graph only has 21 sections. This could be due to the fact that the New York Times has fewer more general sections,
