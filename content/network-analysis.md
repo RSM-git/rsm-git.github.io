@@ -75,6 +75,9 @@ In the table below the modularities from the two partitions and the randomizatio
 |:---------:|:---------:|:-----------------------------:|
 | $$0.460$$ | $$0.515$$ | $$\mathcal{N}(0.003, 0.004)$$ |
 
+The modularity of both the section and Louvain partitions are significantly better than a random partition of the graph, with the 
+Louvain partition being slightly better than the section partition.
+
 ## **Reuters**
 
 Like with the New York Times graph authors with less than 5 articles written were removed, and articles that would have no or a single author were also removed.
@@ -128,6 +131,10 @@ The modularity of the two partitions and the randomization experiment can be see
 |:---------:|:---------:|:-----------------------------:|
 | $$0.242$$ | $$0.558$$ | $$\mathcal{N}(0.014, 0.003)$$ |
 
+As with the New York Times graph the modularity of both partitions are significantly better than that of a random partition of the graph,
+although the Louvain partition increases the modularity by a much larger margin than the section partition.
+
+## **Comparison**
 
 Comparing the two graphs we see that the modularity of the section partition in the Reuters graph is quite a bit lower than the Louvain partition, 
 whereas the modularity of the section partition in the New York Times graph is much closer to that of the Louvain partition. 
