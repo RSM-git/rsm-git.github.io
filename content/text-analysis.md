@@ -11,3 +11,7 @@ First, we need to determine which sections are concerned with the same subjects 
 | ![](/images/Reuters_Section-Politics.png) | ![](/images/NYT_Section-us.png) |
 | ![](/images/Reuters_Section-World-News.png) | ![](/images/NYT_Section-world.png) |
 
+Clearly, both Reuters' politics section and the NYT's us section has an emphasis on the 2016 United States presidential election which is a great topic for comparison as US politics is a highly polarizing topic.
+
+Comparing the word clouds for the Reuters Politics section and the NYT us section, we see that most words are the same including the predominant ones such as Trump, The White House, and democrat/republican. 
+Some of the differences are the NYT having Sanders, referring to the very left leaning senator Bernie Sanders while Reuters have wall and Mexico, referring to Trump's promise of building a wall on the boarder of Mexico.
