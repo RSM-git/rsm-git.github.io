@@ -46,6 +46,11 @@ Additionally, there are also some network statistics of the largest connected co
 |        Median degree        |    7     |     5     |
 | Avg. clustering coefficient |  0.792   |   0.184   |
 
+We remove a lot of nodes and edges by discarding the nodes with less than 5 articles written, but the average degree of the graph
+increases slightly, while the median degree and average clustering coefficient decreases. This means that the graph is less dense
+after removing the nodes, and also reduces the extremes in the degree distribution, such as one author having 2.600 links prior to
+removing the nodes.
+
 The largest connected component of the processed New York Times graph can be seen below.
 
 ![](/images/nyt2.png)
@@ -85,6 +90,12 @@ The resulting graph can be seen below.
 
 ![](/images/reuters1.png)
 
+To see the result of removing the nodes we will look at the degree distribution of the largest connected component of the graph before and after removing the nodes.
+
+|                 Before                 |                 After                 |
+|:--------------------------------------:|:-------------------------------------:|
+| ![](/images/reuters_degree_before.png) | ![](/images/reuters_degree_after.png) |
+
 The network statistics of the graph before and after pruning can be seen in the table below.
 
 |            Stat             | Before | After  |
@@ -94,6 +105,9 @@ The network statistics of the graph before and after pruning can be seen in the 
 |         Avg. degree         | 11.64  | 15.39  |
 |        Median degree        |   4    |   10   |
 | Avg. clustering coefficient | 0.220  | 0.269  |
+
+The average degree of the graph is increased by removing the nodes, but the median degree is also increased, which means that the
+graph is more dense after removing the nodes.
 
 Once again we chose to look at the largest connected component of the graph, which can be seen below.
 
@@ -118,8 +132,11 @@ The modularity of the two partitions and the randomization experiment can be see
 Comparing the two graphs we see that the modularity of the section partition in the Reuters graph is quite a bit lower than the Louvain partition, 
 whereas the modularity of the section partition in the New York Times graph is much closer to that of the Louvain partition. 
 This could be due to the fact that the collaboration within the New York Times is mostly between authors of the same section,
-whereas the collaboration within Reuters is more spread out across sections. This is likely due to the fact that there are fewer sections
-in the New York Times covering a wider range of topics, having articles from 21 unique sections, being partitioned into 13 communities by the Louvain algorithm.
-Whereas Reuters has more sections covering more specific topics across 39 sections partitioned into 14 communities by the Louvain algorithm.
+whereas the collaboration within Reuters is more spread out across sections. 
 
-
+Upon closer inspection of the section partitioning of the section partitioning of both graph we see that, the Reuters graph has 39 sections,
+whereas the New York Times graph only has 21 sections. This could be due to the fact that the New York Times has fewer more general sections,
+whereas Reuters sections which are less general. We can also look at the number of communities given by the Louvain algorithm for each graph,
+the New York Times graph is partitioned into 13 communities, and the Reuters graph is partitioned into 14 communities. The number of communities
+is much closer to the number of sections in the New York Times graph than in the Reuters graph, where the number of sections is almost three times
+the number of communities the Louvain algorithm partitions the graph into.
