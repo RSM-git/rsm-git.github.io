@@ -29,11 +29,11 @@ After preprocessing the data, we end up with substantially fewer articles as see
 
 |            Stat             |  Reuters  |   NYT   |
 |:---------------------------:|:--------:|:---------:|
-|           #Articles            |  56,046  |   24,377   |
+|           #Articles            |  57,128  |   23,796   |
 |           #Sections            |  39  |   21   |
-|         #Authors         |  1,952   |   1,287   |
-|        Avg. words pr. article        |    608     |     1094     |
-|        Avg. #articles pr. author        |    29     |     19     |
+|         #Authors         |  1,951   |   1,318   |
+|        Avg. words pr. article        |    622     |     1204     |
+|        Avg. #articles pr. author        |    29     |     18     |
 
 Each article has a section attribute which allow us to get an overview of which topics are most important to the two publications
 ![](/images/reuters_top_5_sections.png)
@@ -42,7 +42,7 @@ Each article has a section attribute which allow us to get an overview of which 
 
 We see that both publications have "world news" and "business news" in their top sections, it's clear that they emphasize subjects differently. Perhaps not surprisingly, the NYT focuses on US news while Reuters provide a more international perspective with having business first. This fits well with our initial assumptions of Reuters being a more international publication being frequently quoted in even Danish newspapers. With a more international profile, it's not surprising that Reuters have 18 more sections than the NYT although this could be a result of Reuters having almost twice the number of articles and more than 50% more authors in the dataset than the NYT.
 
-Looking at the distribution of number of word pr. article, it's apparent that the NYT has a pretty long-tailed distribution (notice the y-axis is log scaled) with some pieces having more then 11,000 words.
+Looking at the distribution of number of word pr. article, it's apparent that the NYT has a pretty long-tailed distribution (notice the y-axis is log scaled) with some pieces having more then 10,000 words.
 The Reuters articles are significantly shorter with the longest ones being just above 5,000 words. We also notice that the bin with the most articles has about 500 words for Reuters but around 1,000 for the NYT. This is also reflected in the statistics table with the NYT having almost twice as many words pr. article as Reuters on average.
 ![](/images/nyt_word_count.png)
 
