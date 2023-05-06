@@ -1,39 +1,41 @@
 ---
-title: Home Page
+title: Project Summary
 layout: single
 next: data-description
 ---
 
-DISCLAIMER: ALL STATEMENTS ARE BASED SOLELY ON THE SUBSET OF DATA THAT WE HAVE CURRATED AND ARE NOT UNBIASED. See the *Data* page for a discussion of biasses.
+# **What is this project about?**
+
+DISCLAIMER: ALL STATEMENTS ARE BASED SOLELY ON THE SUBSET OF DATA THAT WE HAVE CURATED AND ARE NOT UNBIASED. See the *Data* page for a discussion of biasses.
+
+In this project we have analyzed the collaboration between authors within the news agencies Reuters and The New York Times.
+
+# **Data**
+
+The data used to perform the analysis is a collection of articles, called [All The News 2.0](https://components.one/datasets/all-the-news-2-news-articles-dataset/) 
+which has been scraped from the web. The dataset contains articles from most American news agencies, with the two largest being Reuters and The New York Times.
+
+The data was pre-processed to remove articles with essential missing information, such as author, section or article text, as well as 
+filtering the authors to only include those who have written at least 5 articles to remove potential outliers.
 
 
-## Math formula
+# **Networks**
+
+Using the processed data we constructed an undirected and unweighted collaboration graph for each of the two news agencies. 
+In the graph each node represents an author and an edge between two nodes represents a collaboration between the two authors.
+We chose to look at the largest connected component of each graph, as very few nodes were disconnected from the main component.
+
+The graphs were partitioned using the section feature of the articles, by assigning each node a community based on the section in which the author has written the most articles.
+The section partitioning was compared with a partitioning based on the Louvain algorithm, as well as a random partitioning of the graph.
+
+The modularity experiments showed that the section partitioning of the New York Times graph, was similar to the partitioning based on the Louvain algorithm,
+while the section partitioning of the Reuters graph was quite a bit different from the Louvain partitioning, but still significantly better than the random partitioning.
 
 
-$$ x^n + y^n = z^n $$
+# **Text analysis**
 
-## Code chunk
+FILLER TEXT
 
-```
-import pandas as pd
 
-df = pd.DataFrame()
-```
-
-Sed id orci ullamcorper, commodo sapien in, scelerisque nunc. Duis posuere sed nisl in gravida. Pellentesque rutrum justo ut mi tempus dignissim. Ut pulvinar quis urna ut molestie. Pellentesque nec arcu metus. Vivamus non rutrum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-![](https://source.unsplash.com/random/?Copenhagen)
-
-Phasellus viverra tellus viverra purus placerat, et lacinia mauris tristique. Nam semper venenatis lorem, nec ullamcorper tortor dignissim eget. Etiam non ipsum sed neque pharetra ullamcorper. Praesent ultrices ipsum varius dictum lacinia. Nulla placerat magna augue, volutpat rutrum nulla finibus sed. Phasellus maximus mi sit amet risus mattis, porta rhoncus elit dictum. Donec vel viverra lectus, vitae elementum arcu. Quisque quis molestie elit. Cras eget tellus vitae risus fermentum bibendum vitae ac turpis. Praesent mi eros, scelerisque sit amet sem at, hendrerit accumsan ligula.
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec mauris aliquet, convallis ligula vel, mollis est. Fusce accumsan massa vel lectus dapibus, at vehicula elit auctor.
-
-| Column 1  | Column 2  |  Column 3 |
-|---|---|---|
-| 1 | 4 | 7 |
-| 2 | 5 | 8 |
-| 3 | 6 | 9 |
-
-## [Explainer Notebook](explainer-notebook.html)
-
-Aenean non augue vulputate, bibendum ligula ac, euismod arcu. Proin consequat, urna at lobortis sodales, ligula nulla molestie dolor, et interdum nulla arcu eu lacus. Aenean maximus mi vel augue blandit, quis vehicula libero egestas. In mollis nibh in turpis sodales, eget luctus sem pretium. Integer lobortis diam vel nisi laoreet, ut condimentum risus ultrices. Praesent diam risus, imperdiet at lorem in, hendrerit auctor ex.
+To see the fully detailed analysis with code, please see the explainer notebook linked below.
+# [Explainer Notebook](explainer-notebook.html)
