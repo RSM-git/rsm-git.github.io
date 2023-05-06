@@ -20,9 +20,8 @@ Let's plot these word clouds in a higher resolution
 ![](/images/Reuters_TFIDF_Politics.png)
 ![](/images/NYT_TFIDF_us.png)
 
-Comparing the word clouds for the Reuters Politics section and the NYT us section, we see that most words are the same including the predominant ones such as Trump, The White House, and democrat/republican. 
-Some of the differences are the NYT having Sanders, referring to the very left leaning senator Bernie Sanders while Reuters have wall and Mexico, referring to Trump's promise of building a wall on the boarder of Mexico.
-Although it's impossible to draw any significant conclusions on these differences, on possible interpretation is that the NYT focusses more on the politics and politicians of the Democratic party while Reuters focuses more on the major talking points of the compaigns.
+Comparing the word clouds for the Reuters Politics section and the NYT us section, we see that they are almost identical and it is very difficult to find any differences at all.
+As the word clouds show no apparent differences, we will instead move on to the sentiment analysis.
 
 # Sentiment Analysis
 We used sentiment analysis on all the articles for each publication to look for some general trends in each publication.
@@ -43,3 +42,14 @@ The bar plots below show these findings
 ![](/images/nyt_author_sentiments.png)
 
 From the plots it is evident that the vast majority of authors write in a negative sentiment but that it is even more common at the NYT than at Reuters.
+
+Let us now return to the comparison of the publications' portrayal of US politics.
+We will compare the sentiments for the Reuters' politics section and the NYT's us section. 
+
+|                                     |               Reuters               |               NYT               |
+|:----------------------------------:|:----------------------------------:|:---------------------------------:|
+|Negative | 2,472 (81%) | 5,938 (76%)|
+|Neutral | 353 (12%)| 1,118 (14%)|
+|Positive | 212 (7%)| 771 (10%)|
+
+While these seem mostly Negative for them both. If we compare the distribution to the sentiment analysis for the whole agencies, then we think that there is no significant difference here. Thus the conclusion here is that US-Politics does not impact the overall sentiment of the two news agencies.
