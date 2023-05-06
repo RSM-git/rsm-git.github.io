@@ -51,3 +51,5 @@ We will compare the sentiments for the Reuters' politics section and the NYT's u
 |Negative | 2,472 (81%) | 5,938 (76%)|
 |Neutral | 353 (12%)| 1,118 (14%)|
 |Positive | 212 (7%)| 771 (10%)|
+
+While these seem mostly Negative for them both. If we compare the distribution to the sentiment analysis for the whole agencies, then we think that there is no significant difference here. Thus the conclusion here is that US-Politics does not impact the overall sentiment of the two news agencies.
