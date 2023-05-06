@@ -34,7 +34,9 @@ while the section partitioning of the Reuters graph was quite a bit different fr
 
 # **Text analysis**
 
-FILLER TEXT
+Using the processed data we separated the articles from the two agencies by section. With the articles categorized by section, we did a Term Frequency (TF) and Term Frequency inverse Document Frequency (TF-IDF) on the articles. Doing so allowed us to compare the two agencies' use of terms in similar sections.
+
+From the Tf-IDF we found that in particular the NYT section "US" and the Reuters section "Politics" seemed similar in terms of word usage. With this in mind, we ran a Sentiment analysis on all the articles from their respective agencies. Here we found that the news agencies tend to be predominantly negative in their coverage, at least in the dataset that we have.
 
 
 To see the fully detailed analysis with code, please see the explainer notebook linked below.
