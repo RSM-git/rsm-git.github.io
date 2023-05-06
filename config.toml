@@ -6,8 +6,8 @@ theme = "theme"
 [params]
     authors = ["Kris Back Kruse", "Rasmus Steen Mikkelsen", "Victor Tolsager Olesen"]
     notebook = "/explainer-notebook.html"
-    data = "https://drive.google.com"
-    github = "https://github.com/kriskruse/compsocsci_AssignmentFinal"
+    data = "https://components.one/datasets/all-the-news-2-news-articles-dataset/"
+    github = "https://github.com/RSM-git/rsm-git.github.io"
     [[params.nav]]
         label = "Data"
         link = "/data-description"
