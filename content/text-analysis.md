@@ -33,12 +33,12 @@ We used sentiment analysis on all the articles for each publication to look for 
 The table below shows how many articles was classified with a given sentiment for each publication
 |                                     |               Reuters               |               NYT               |
 |:----------------------------------:|:----------------------------------:|:---------------------------------:|
-|Negative | 46,478 (83%) | 16,995 (70%)|
-|Neutral | 5,759 (10%)| 3,821 (16%)|
-|Positive | 3,809 (7%)| 3,561 (14%)|
+|Negative | 47,651 (83%) | 17,376 (73%)|
+|Neutral | 5,812 (10%)| 3,384 (14%)|
+|Positive | 3,666 (7%)| 3,036 (13%)|
 
-Clearly, both publications share the same trend of the vast majority of articles having a negative sentiment. However, Reuters take the lead in being the most negative with 83% of their articles being negative and only 7% being positive. Percentwise, the NYT has twice as many positive but still pretty low a 14%.
-While these results were unexpected, it is perhaps not that surprising as it is a well known phenomenon that [the average person is drawn to negative news](https://www.bbc.com/future/article/20140728-why-is-all-the-news-bad) and publications print what sells.
+Clearly, both publications share the same trend of the vast majority of articles having a negative sentiment. However, Reuters take the lead in being the most negative with 83% of their articles being negative and only 7% being positive. Percentwise, the NYT has almost twice as many positive articles than Reuters but it is still pretty low a 13%.
+While we did not expect these results, perhaps we should have as it is a well known phenomenon that [the average person is drawn to negative news](https://www.bbc.com/future/article/20140728-why-is-all-the-news-bad) and ultimately publications print what sells.
 
 We thought it interesting to look at if the negative sentiment is caused by a few high-throughput authors or if most authors write with this sentiment.
 We therefore found all the articles that each author wrote in the dataset and determined the most frequent sentiment of each author. In this was, we can classify each author as majorily writing in a negative, neutral, or positive sentiment.
@@ -47,4 +47,3 @@ The bar plots below show these findings
 ![](/images/nyt_author_sentiments.png)
 
 From the plots it is evident that the vast majority of authors write in a negative sentiment but that it is even more common at the NYT than at Reuters.
-
