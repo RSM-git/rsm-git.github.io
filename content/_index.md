@@ -14,7 +14,7 @@ In this project we have analyzed the collaboration between authors within the ne
 The data used to perform the analysis is a collection of articles, called [All The News 2.0](https://components.one/datasets/all-the-news-2-news-articles-dataset/) 
 which has been scraped from the web. The dataset contains articles from most American news agencies, with the two largest being Reuters and The New York Times.
 
-After preprocessing, we were left with about 57,000 articles from Reuters, and 24,00+ articles from the NYT.
+After preprocessing, we were left with about 57,000 articles from Reuters, and 24,000 articles from the NYT.
 
 The five sections with the most articles are shown below
 <img src="/images/reuters_top_5_sections.png" alt="drawing" width="600"/>
