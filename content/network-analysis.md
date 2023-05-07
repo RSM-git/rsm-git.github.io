@@ -4,8 +4,8 @@ prev: data-description
 next: text-analysis
 ---
 
-For both The New York Times and Reuters we construct networks based on collaboration of articles. A node represents an author and 
-a connection between two nodes represent collaboration. The size of the nodes will be scaled by the number of articles an author has published. 
+For both The New York Times and Reuters, we construct networks based on collaboration on articles. A node represents an author and 
+a connection between two nodes represents collaboration. The size of the nodes will be scaled by the number of articles an author has published. 
 The networks are undirected and unweighted as the collaborative connection is mutual. With the two networks we will be able to discern the 
 differences in how the two news agencies collaborate between authors.
 
@@ -19,7 +19,7 @@ As can be seen there is a large blob in the center of the graph, containing a fe
 and a lot of authors with a very small number of articles written, all belonging to the Movies section of the newspaper.
 Upon further inspection we found that a majority of these "authors" were actually actors, actresses, or other celebrities
 such as John Cena, Jake Gyllenhaal, Margot Robbie, etc. All of which had a low number of articles, where they were listed
-as authors, likely due to the fact that they were the subject of the article or were interviewed for the article. As such we 
+as authors, likely due to the fact that they were the subject of the article or were interviewed for the article. As such, we 
 chose to remove all nodes with less than 5 articles written, and the corresponding articles that would result in having a 
 single author or no author are also removed.
 
@@ -28,7 +28,7 @@ The resulting graph of removing the nodes corresponding to authors with 5 or few
 ![](/images/nyt1.png)
 
 There are some nodes which are disconnected from the main component, and as such will not be able to give much information
-about the community structure of the graph. As such we choose to look at the largest connected component, which holds the majority
+about the community structure of the graph. We choose to look at the largest connected component, which holds the majority
 of the nodes in the graph. In the figures below we see the degree distribution of the largest connected component of New York Times graph before and
 after removing the nodes with less than 5 articles written, we see that some outliers with more than 2.000 links are reduced to a more reasonable number.
 
@@ -47,7 +47,7 @@ Additionally, there are also some network statistics of the largest connected co
 | Avg. clustering coefficient |  0.792   | 0.326  |
 
 We remove a lot of nodes and edges by discarding the nodes with less than 5 articles written, but the average degree of the graph
-almost doubles, additionally the median also increases significantly, which is to be expected as authors with low number of articles written, 
+almost doubles. Additionally, the median also increases significantly, which is to be expected as authors with low number of articles written, 
 should have fewer connections. The resulting graph is more densely connected, although the drop in the average clustering coefficient is relatively large 
 
 We see that the extremes in the degree distribution are reduced significantly, such as one author having 2.600
