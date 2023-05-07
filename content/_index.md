@@ -14,7 +14,7 @@ In this project we have analyzed how authors collaborate within Reuters and The 
 
 # **Data**
 The data used to perform the analysis is a collection of articles, called [All The News 2.0](https://components.one/datasets/all-the-news-2-news-articles-dataset/) 
-which has been scraped from the web. The dataset contains articles from most American news agencies, with the two largest being Reuters and The New York Times.
+which has been scraped from the web. The dataset contains articles from several American news agencies, with the two largest being Reuters and The New York Times.
 
 After preprocessing, we were left with about 57,000 articles from Reuters, and 24,000 articles from the NYT.
 
@@ -23,25 +23,26 @@ The five sections with the most articles are shown below
 <br></br>
 <img src="/images/nyt_top_5_sections.png" alt="drawing" width="600"/>
 
+We see that both publications have world news and business in their top sections but otherwise they are different in name at least. It turns out that some sections concern the same subject but are named differently as we shall see later.
+
 
 See the [data](data-description) page for more details about the dataset.
 
 # **Networks**
 
 Using the processed data we constructed an undirected and unweighted collaboration graph for each of the two news agencies. 
-In the graph each node represents an author and an edge between two nodes represents a collaboration between the two authors.
+In the graph, each node represents an author and an edge between two nodes represents a collaboration between the two authors.
 We chose to look at the largest connected component of each graph, as very few nodes were disconnected from the main component.
 
 The graphs were partitioned using the section feature of the articles, by assigning each node a community based on the section in which the author has written the most articles. Nodes with the same colours are authors with the same section.
-The NYT network:
 
-TODO: SMALL TABLE WITH 
-COLOR : SECTION
+The NYT network:
 ![](/images/nyt2.png)
 
 The NYT network shows that there are two major components: the larger one with several sections, and a smaller one to the left with only authors of the same section. The nodes in the smaller component are all authors from the movie section and shows how they very rarely collaborate with authors outside of their own section.
 The larger component is more mixed but it's still clear that authors from the same section are grouped together.
 
+The Reuters network:
 ![](/images/reuters2.png)
 The reuters network is way more mixed showing that authors are more likely to collaborate with other authors from different sections but there are still clear tendencies such the red nodes being exclusively on left half of the graph.
 
@@ -89,5 +90,5 @@ We believe that these results are caused by the well known phenomenon that [the 
 To see more details, head over to the [text](text-analysis) section.
 
 # **Conclusion**
-In conclusion, we have found that for both publications, authors tend to collaborate with authors within their own section but that this more common at the NYT than at Reuters.
+In conclusion, we have found that for both publications, authors tend to collaborate with authors within their own section but that this is more common at the NYT than at Reuters.
 We also discovered that the publications write in a very negative sentiment and that we from our analysis did not find any indication of political bias. However, these are purely the results of the tools that we have used which we have found are clearly not well suited for the task. We thus conclude that the sentiment of the articles does not seem to be affected by the section they are written in but rather as a result of how most articles are written in today's age.
