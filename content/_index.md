@@ -53,8 +53,11 @@ See the [network](network-analysis) for more details.
 For the text analysis, we started with looking at word clouds generated with tf-idf for each section of the two publications.
 Since we wanted to compare how the publications portray the same subject, we looked for the sections which were mostly related with the 2016 US presidential election as we expected this to be the subject of numerous articles due to the time period in which the dataset was currated.
 We found that the us sections of the NYT and the politics section of Reuters seemed to have the most emphasis on the election based on the following word clouds
-![](/images/Reuters_TFIDF_Politics.png)
-![](/images/NYT_TFIDF_us.png)
+
+<img src="/images/Reuters_TFIDF_Politics.png" alt="drawing" width="600"/>
+<br></br>
+<img src="/images/NYT_TFIDF_us.png" alt="drawing" width="600"/>
+
 
 The word clouds are in fact so simillar that it is very difficult to discern any difference at all and as such we can only conclude that we *can not* find any difference in their writing style from the word clouds alone. This is not a fault of word clouds since they are excellent at depicting the central topics, they are just not great at discerning *how* the articles are written.
 
