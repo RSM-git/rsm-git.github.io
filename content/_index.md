@@ -17,9 +17,10 @@ which has been scraped from the web. The dataset contains articles from most Ame
 After preprocessing, we were left with about 57,000 articles from Reuters, and 24,00+ articles from the NYT.
 
 The five sections with the most articles are shown below
-![](/images/reuters_top_5_sections.png)
+<img src="/images/reuters_top_5_sections.png" alt="drawing" width="600"/>
+<br></br>
+<img src="/images/nyt_top_5_sections.png" alt="drawing" width="600"/>
 
-![](/images/nyt_top_5_sections.png)
 
 See the [data](data-description) page for more details about the dataset.
 
@@ -43,8 +44,10 @@ The larger component is more mixed but it's still clear that authors from the sa
 The reuters network is way more mixed showing that authors are more likely to collaborate with other authors from different sections but there are still clear tendencies such the red nodes being exclusively on left half of the graph.
 
 These visual interpretations are backed up by looking at the modularity with regards to section
-![](/images/the_new_york_times_graph_mod.png)
-![](/images/reuters_graph_mod.png)
+
+<img src="/images/the_new_york_times_graph_mod.png" alt="drawing" width="600"/>
+<br></br>
+<img src="/images/reuters_graph_mod.png" alt="drawing" width="600"/>
 
 These graphs show us that the section modularity is about 0.5 for the NYT but only around 0.2 for Reuters. However, both of these modularities are significantly higher than the modularities of the randomization experiments with the double edge swap algorithm. These results confirm that authors from both publications are more likely to write with authors from the same section and that this is more so the case for the NYT than Reuters.
 See the [network](network-analysis) for more details.
