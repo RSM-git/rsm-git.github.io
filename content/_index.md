@@ -75,6 +75,7 @@ Well, looking at the sentiment of all the articles in the dataset, it seems that
 |Negative | 47,651 (83%) | 17,376 (73%)|
 |Neutral | 5,812 (10%)| 3,384 (14%)|
 |Positive | 3,666 (7%)| 3,036 (13%)|
+
 We believe that these results are caused by the well known phenomenon that [the average person is drawn to negative news](https://www.bbc.com/future/article/20140728-why-is-all-the-news-bad) and ultimately publications print what sells.
 
 To see more details, head over to the [text](text-analysis) section.
