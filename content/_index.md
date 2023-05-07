@@ -38,11 +38,13 @@ The NYT network:
 TODO: SMALL TABLE WITH 
 COLOR : SECTION
 ![](/images/nyt2.png)
+![](/images/nyt_legend.png)
 
 The NYT network shows that there are two major components: the larger one with several sections, and a smaller one to the left with only authors of the same section. The nodes in the smaller component are all authors from the movie section and shows how they very rarely collaborate with authors outside of their own section.
 The larger component is more mixed but it's still clear that authors from the same section are grouped together.
 
 ![](/images/reuters2.png)
+![](/images/reuters_legend.png)
 The reuters network is way more mixed showing that authors are more likely to collaborate with other authors from different sections but there are still clear tendencies such the red nodes being exclusively on left half of the graph.
 
 These visual interpretations are backed up by looking at the modularity with regards to section
