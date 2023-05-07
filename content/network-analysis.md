@@ -57,6 +57,7 @@ large blob of nodes has a lot of interconnected nodes, which are removed since a
 The largest connected component of the processed New York Times graph can be seen below.
 
 ![](/images/nyt2.png)
+![](/images/nyt_legend.png)
 
 The Louvain community detection algorithm was used on the largest connected component of the graph giving the following partitioning of the graph.
 
@@ -119,6 +120,7 @@ Both the average degree and median degrees increase significantly after removing
 Once again we chose to look at the largest connected component of the graph, which can be seen below.
 
 ![](/images/reuters2.png)
+![](/images/reuters_legend.png)
 
 And the partitioning of the largest connected component of the graph given by the Louvain algorithm can be seen below.
 
