@@ -150,7 +150,7 @@ which means the authors in the New York Times graph are more likely to collabora
 
 Upon closer inspection of the section partitioning of the section partitioning of both graph we see that, the Reuters graph has 39 sections,
 whereas the New York Times graph only has 21 sections. This could be due to the fact that the New York Times has fewer more general sections,
-whereas Reuters sections which are less general. We can also look at the number of communities given by the Louvain algorithm for each graph,
+whereas Reuters sections are less general. We can also look at the number of communities given by the Louvain algorithm for each graph,
 the New York Times graph is partitioned into 9 communities, and the Reuters graph is partitioned into 11 communities. The number of communities
 is only half the number of sections in the New York Times graph compared to the Reuters graph, where the number of sections is almost four times
 the number of communities the Louvain algorithm partitions the graph into.
