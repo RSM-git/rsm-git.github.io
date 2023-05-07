@@ -4,11 +4,13 @@ layout: single
 next: data-description
 ---
 
-# **What is this project about?**
-
 DISCLAIMER: ALL STATEMENTS ARE BASED SOLELY ON THE SUBSET OF DATA THAT WE HAVE CURATED AND ARE NOT UNBIASED. See the [data](data-description) page for a discussion of biasses.
 
-In this project we have analyzed the collaboration between authors within the news agencies Reuters and The New York Times (NYT).
+To see the fully detailed analysis with code, please see the explainer notebook linked below.
+# [Explainer Notebook](explainer-notebook.html)
+
+# **What is this project about?**
+In this project we have analyzed how authors collaborate within Reuters and The New York Times (NYT) both in terms of who they are writing with and how they are writing.
 
 # **Data**
 The data used to perform the analysis is a collection of articles, called [All The News 2.0](https://components.one/datasets/all-the-news-2-news-articles-dataset/) 
@@ -89,6 +91,3 @@ To see more details, head over to the [text](text-analysis) section.
 # **Conclusion**
 In conclusion, we have found that for both publications, authors tend to collaborate with authors within their own section but that this more common at the NYT than at Reuters.
 We also discovered that the publications write in a very negative sentiment and that we from our analysis did not find any indication of political bias. However, these are purely the results of the tools that we have used which we have found are clearly not well suited for the task, so all we say is that the sentiment of the articles does not seem to be affected by the section they are written in but rather as a result of how most articles are written in today's age.
-
-To see the fully detailed analysis with code, please see the explainer notebook linked below.
-# [Explainer Notebook](explainer-notebook.html)
