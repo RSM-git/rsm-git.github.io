@@ -6,7 +6,7 @@ next: data-description
 
 # **What is this project about?**
 
-DISCLAIMER: ALL STATEMENTS ARE BASED SOLELY ON THE SUBSET OF DATA THAT WE HAVE CURATED AND ARE NOT UNBIASED. See the [data](data-description) page for a discussion of biasses.
+DISCLAIMER: All statements are based solely on the subset of data that we have curated and are not unbiased. See the [data](data-description) page for a discussion of biasses.
 
 In this project we have analyzed the collaboration between authors within the news agencies Reuters and The New York Times (NYT).
 
