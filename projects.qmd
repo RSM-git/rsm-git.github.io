@@ -16,4 +16,9 @@ title: "Projects"
 - Deployed models to Azure exposed as FastAPI endpoints
 - Multiple cases: Object detection, Movie rating prediction, Reinforcement learning
 
+### Classification of Sustainable Development Goals in academic literature
+- Achieved SOTA performance at the time of development
+- Collected data for training with the Twitter(X) API
+- Deployed solution with a light HTML/CSS frontend
+
 ---
