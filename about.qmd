@@ -6,6 +6,8 @@ I've always been interested in mathematics, physics, and technology which is abl
 
 I enjoy programming primarily in Python, but I also dabble in some Lua, Rust, C, and C++.
 
+Appart from programming I genuinely enjoy learning new things, biking, and going for a nice refreshing hike.
+
 ## Education
 * (10.33 / 12.00 GPA) Master's degree in Mathematical Modelling and Computation [2023-2025 at DTU]
 
