@@ -20,5 +20,6 @@ title: "Projects"
 - Achieved SOTA performance at the time of development
 - Collected data for training with the Twitter(X) API
 - Deployed solution with a light HTML/CSS frontend
+- Inference on articles from Scopus
 
 ---
