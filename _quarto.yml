@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "Rasmus Steen Mikkelsen"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: About
+  
+
+  page-footer:
+    left: |
+      © 2026 Rasmus Steen Mikkelsen
+      AI / ML / Data Science
+
+    center: |
+      Built with **Quarto**
+
+    right: |
+      [GitHub](https://github.com/rsm-git)
+      [LinkedIn](https://www.linkedin.com/in/rasmus-steen-mikkelsen-29baab241/)
+
+format: 
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    page-layout: full

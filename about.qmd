@@ -1,0 +1,12 @@
+---
+title: "About me"
+---
+
+I've always been interested in mathematics, physics, and technology which is able to describe our world.
+
+I enjoy programming primarily in Python, but I also dabble in some Lua, Rust, C, and C++.
+
+## Education
+* (10.33 / 12.00 GPA) Master's degree in Mathematical Modelling and Computation [2023-2025 at DTU]
+
+* (10.13 / 12.00 GPA) Bachelor's degree in Artificial Intelligence and Data [2020-2023 at DTU]

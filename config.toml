@@ -1,0 +1,20 @@
+baseURL = "https://rsm-git.github.io"
+title = "Community detection and analysis of American news agencies"
+description = "123 123"
+relativeURLs = true
+theme = "theme" 
+[params]
+    authors = ["Kris Back Kruse", "Rasmus Steen Mikkelsen", "Victor Tolsager Olesen"]
+    notebook = "/explainer-notebook.html"
+    data = "https://components.one/datasets/all-the-news-2-news-articles-dataset/"
+    github = "https://github.com/RSM-git/rsm-git.github.io"
+    [[params.nav]]
+        label = "Data"
+        link = "/data-description"
+    [[params.nav]]
+        label = "Network"
+        link = "/network-analysis"
+    [[params.nav]]
+        label = "Text"
+        link = "/text-analysis"
+

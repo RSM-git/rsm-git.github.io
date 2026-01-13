@@ -1,0 +1,18 @@
+---
+title: "My site"
+---
+
+Hi, I'm Rasmus a AI / Data Scientist 
+
+Throughout the last five years I have gained experience within:
+
+- Python
+- Machine Learning
+- Deep Learning
+- Data Visualization
+- Data Analysis
+
+This site showcases some of the projects I have worked on, and tells a bit about myself.
+
+---
+
