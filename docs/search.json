@@ -4,21 +4,21 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Created a graph consisting of journalists\nClassical NLP methods\nGraph analysis & statistics\n\nView project\n\n\n\n\nCollected data and trained models\nDeployed models to Azure exposed as FastAPI endpoints\nMultiple cases: Object detection, Movie rating prediction, Reinforcement learning\n\n\n\n\n\nAchieved SOTA performance at the time of development\nCollected data for training with the Twitter(X) API\nDeployed solution with a light HTML/CSS frontend"
+    "text": "Created a graph consisting of journalists\nClassical NLP methods\nGraph analysis & statistics\n\nView project\n\n\n\n\nCollected data and trained models\nDeployed models to Azure exposed as FastAPI endpoints\nMultiple cases: Object detection, Movie rating prediction, Reinforcement learning\n\n\n\n\n\nAchieved SOTA performance at the time of development\nCollected data for training with the Twitter(X) API\nDeployed solution with a light HTML/CSS frontend\nInference on articles from Scopus"
   },
   {
     "objectID": "projects.html#selected-projects",
     "href": "projects.html#selected-projects",
     "title": "Projects",
     "section": "",
-    "text": "Created a graph consisting of journalists\nClassical NLP methods\nGraph analysis & statistics\n\nView project\n\n\n\n\nCollected data and trained models\nDeployed models to Azure exposed as FastAPI endpoints\nMultiple cases: Object detection, Movie rating prediction, Reinforcement learning\n\n\n\n\n\nAchieved SOTA performance at the time of development\nCollected data for training with the Twitter(X) API\nDeployed solution with a light HTML/CSS frontend"
+    "text": "Created a graph consisting of journalists\nClassical NLP methods\nGraph analysis & statistics\n\nView project\n\n\n\n\nCollected data and trained models\nDeployed models to Azure exposed as FastAPI endpoints\nMultiple cases: Object detection, Movie rating prediction, Reinforcement learning\n\n\n\n\n\nAchieved SOTA performance at the time of development\nCollected data for training with the Twitter(X) API\nDeployed solution with a light HTML/CSS frontend\nInference on articles from Scopus"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My site",
     "section": "",
-    "text": "Hi, I’m Rasmus a AI / Data Scientist\nThroughout the last five years I have gained experience within:\n\nPython\nMachine Learning\nDeep Learning\nData Visualization\nData Analysis\n\nThis site showcases some of the projects I have worked on, and tells a bit about myself."
+    "text": "Hi, I’m Rasmus a AI / Data Scientist\nThroughout the last five years I have gained experience within:\n\nPython\nMachine Learning\nDeep Learning\nData Visualization\nData Analysis\n\nThis site showcases acts as a portfolio for some of my projects, and tells a bit about myself."
   },
   {
     "objectID": "about.html",
