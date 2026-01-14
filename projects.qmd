@@ -14,7 +14,8 @@ title: "Projects"
 ### 🥈 Danish National Championship in AI (2021)
 - Collected data and trained models
 - Deployed models to Azure exposed as FastAPI endpoints
-- Multiple cases: Object detection, Movie rating prediction, Reinforcement learning
+- Object detection with YOLO
+- NLP Movie rating prediction
 
 ### Classification of Sustainable Development Goals in academic literature
 - Achieved SOTA performance at the time of development
