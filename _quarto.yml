@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Rasmus Steen Mikkelsen"
+  favicon: "static/favicon.png"
   navbar:
     left:
       - href: index.qmd
