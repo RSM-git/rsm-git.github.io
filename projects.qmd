@@ -4,6 +4,13 @@ title: "Projects"
 
 ## Selected Projects
 
+### Master's thesis - Auditory attention decoding (EEG & Audio)
+- Finetuned [LaBraM](https://arxiv.org/abs/2405.18765) and [CLAP](https://arxiv.org/abs/2211.06687) to classify the attended speaker using a clinical dataset
+- Implemented an audio-disjoint data splitting method to ensure no data leakage across clinical trials and subjects
+
+[Thesis presentation](static/thesis_slides.pdf)
+
+
 ### News Media Community Detection
 - Created a graph consisting of journalists
 - Classical NLP methods
