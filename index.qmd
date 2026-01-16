@@ -12,7 +12,7 @@ Throughout the last five years I have gained experience within:
 - Data Visualization
 - Data Analysis
 
-This site showcases acts as a portfolio for some of my projects, and tells a bit about myself. This site was built with [Quarto](https://quarto.org/) which compiles Markdown to HTML.
+This site showcases acts as a portfolio for some of my projects, and tells a bit about myself. This site was built with [Quarto](https://quarto.org/) which compiles Markdown to HTML through a GitHub Actions workflow.
 
 ---
 
